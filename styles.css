@@ -368,3 +368,9 @@ section + section { padding: 30px 0; }
 .resource-button:hover { background: #eaf1f7; border-color: #9db3c5; text-decoration: none; }
 
 .publication .venue { display: block; text-transform: none; letter-spacing: normal; font-size: 13px; line-height: 1.6; color: var(--accent); margin: 8px 0 12px; }
+
+/* Keep the research illustration free of colored link panels. */
+.iceberg-label { font-size: 1.25cqw; line-height: 1.35; }
+.overview-projects { background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.overview-explicit a { border: 0; border-radius: 0; }
+.overview-projects[href]:hover, .overview-explicit a:hover { background: transparent; border: 0; box-shadow: none; text-decoration: underline; }
