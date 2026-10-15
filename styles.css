@@ -379,7 +379,7 @@ section + section { padding: 30px 0; }
 .overview-projects { width: auto; height: auto; padding: 4px 9px; background: #fff; border: 0; border-radius: 0; box-shadow: none; transform: translate(-50%, -50%); left: 36.5%; }
 .overview-explicit { top: 12%; padding: 0; background: transparent; gap: 8px; }
 .overview-explicit a { padding: 4px 9px; background: #fff; border: 0; border-radius: 0; }
-.overview-xr { top: 49%; white-space: nowrap; }
+.overview-xr { top: 39%; white-space: nowrap; }
 .overview-gaze { top: 88%; white-space: nowrap; }
 .overview-projects[href]:hover, .overview-explicit a:hover { background: #fff; border: 0; box-shadow: none; text-decoration: underline; }
 @media (max-width: 600px) {
